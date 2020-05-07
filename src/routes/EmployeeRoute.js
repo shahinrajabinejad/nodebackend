@@ -6,5 +6,6 @@ router.post('/create', EmployeeController.create);
 router.get('/get/:id', EmployeeController.get);
 router.post('/update/:id', EmployeeController.update);
 router.post('/delete', EmployeeController.delete);
+router.get('/testdata',EmployeeController.testdata );
 
 module.exports = router;
